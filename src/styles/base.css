@@ -1,0 +1,20 @@
+/* Fonts embedded in the ResoZera landing-page PDF (subsets: only the glyphs the landing text uses). */
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('/fonts/Agrandir-Grand-subset.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archive';
+  src: url('/fonts/Archive-subset.ttf') format('truetype');
+  font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { margin: 0; padding: 0; min-height: 100%; }
+body {
+  background: #03060f;
+  color: #e8ecf7;
+  font-family: 'Alegreya Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
