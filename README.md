@@ -255,7 +255,7 @@ The existing ResoZera landing page is preserved, with the **RUN DEMO** entry poi
 
 The demo compares the original Sentinel-2 image with Bicubic, Phase 1 EDSR and the ResoZera MVP output.
 
-![ResoZera Super-Resolution Comparison](screenshots/sr-comparison.jpg)
+![ResoZera Super-Resolution Comparison](screenshots/sr-comparison.png)
 
 > The screenshot is a visualization of the prototype comparison interface. Super-resolution output should be interpreted as AI reconstruction, not as guaranteed recovery of information that the 10 m sensor did not directly capture.
 
